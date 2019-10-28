@@ -1,0 +1,71 @@
+#left-eye {
+  animation: lefteye 3s linear infinite;
+}
+
+#right-eye {
+  animation: righteye 3s linear infinite;
+}
+
+#left-ear {
+  transition: all .5s linear;
+}
+
+#right-ear {
+  transition: all .5s linear;
+}
+
+#bear:hover #left-ear {
+  transform: translateY(-10px);
+}
+
+#bear:hover #right-ear {
+  transform: translateY(-10px);
+}
+
+@keyframes lefteye {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
+
+@keyframes righteye {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
